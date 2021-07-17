@@ -1,0 +1,21 @@
+#root {
+    -fx-background-color: gold;
+}
+
+#heightLabel, #widthLabel {
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
+
+#button {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-padding: 9;
+    -fx-font-size: 12;
+    -fx-text-fill: white;
+}
+
+#button:hover {
+    -fx-background-color: linear-gradient(#fd894c, #ff3d1b);
+}
